@@ -23,8 +23,6 @@ def solution(numbers):
     numbers_str = list(map(str, numbers))
     numbers_str.sort(key=lambda x : x*3, reverse=True)
     str_answer = "".join(numbers_str)
-    if str_answer[0] == 0:
-        return 0
     answer = int(str_answer)
     return answer
 
