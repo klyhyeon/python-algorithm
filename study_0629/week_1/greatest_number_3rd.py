@@ -18,30 +18,14 @@
 # [3, 30, 34, 5, 9]	"9534330"
 # 배열 크기 100,000 이하
 # 숫자 크기 1,000이하
-# 소요시간: 30분 (제출 후 테스트 실패)
-# 접근방식: 앞자리가 같은 경우 맨 끝자리만 비교해 큰 값과 
-# 참고 접근방식: https://smcho1201.tistory.com/81
-
 
 def solution(numbers):
-    answer = '2'
-    # 문자로 정렬하되, 30, 3인 경우 더 큰 값이 3이여야 함.
-    # 1. 문자로 변환
     numbers_str = list(map(str, numbers))
-    # 2. 내림차순 정렬
-    numbers_str.sort(reverse = True)
-    # 3. 30, 3인 경우 더 큰 값이 3이여야 함
-    print(numbers_str)
-    for i in range(len(numbers_str)):
-        if (i != 0) and (numbers_str[i - 1][0] == numbers_str[i][0]):
-            len_range = max(len(numbers_str[i - 1]), len(numbers_str[i]))
-            for i in range(len_range):
-                if numbers_str[i - 1][]
-            if (int(numbers_str[i - 1][-1])) < (int(numbers_str[i][-1])):
-                pre_number = numbers_str[i - 1]
-                numbers_str[i - 1] = numbers_str[i]
-                numbers_str[i] = pre_number
-    return "".join(numbers_str)
+    numbers_str.sort(key=lambda x : x*3, reverse=True)
+    answer = "".join(numbers_str)
+    if answer[0] == '0':
+        return '0'
+    return answer
 
-print(solution([6, 10, 2]))
+print(solution([0, 0, 0]))
 print(solution([3, 30, 34, 5, 9]))
