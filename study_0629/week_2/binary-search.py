@@ -24,24 +24,9 @@
 # last != middle 조건 때문에 첫 시도 실패, 이후 성공
 # efficiency
 # Efficiency
-# Current complexity:
-# O
-# (
-# log
-# ⁡
-# N
-# )
-# O(logN)
-# Suggested complexity:
-# O
-# (
-# log
-# ⁡
-# N
-# )
-# O(logN)
-# Suggestions:
-# Excellent work. The complexity is optimal and no further changes are needed.
+# Current complexity: O(logN)
+# Suggested complexity: O (logN)
+# Suggestions: Excellent work. The complexity is optimal and no further changes are needed.
 
 from typing import List
 
@@ -62,4 +47,3 @@ class Solution:
             
 solution = Solution()
 print(solution.search([1,2,3,4,5,6,7,8,9,10], 2))
-            
