@@ -22,8 +22,6 @@
 # nums is sorted in ascending order.
 # 소요시간: 50분
 # last != middle 조건 때문에 첫 시도 실패, 이후 성공
-# efficiency
-# Efficiency
 # Current complexity: O(logN)
 # Suggested complexity: O (logN)
 # Suggestions: Excellent work. The complexity is optimal and no further changes are needed.
