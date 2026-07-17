@@ -6,7 +6,7 @@
 * [x] **1주차: 정렬 마무리 & 힙 확장**
     * 문제 1: [프로그래머스 L2 - 가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) (완료)
     * 문제 2: [LeetCode 56 - Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) (완료)
-* [ ] **2주차 (이번 주): 이진 탐색 (Binary Search)**
+* [x] **2주차 (이번 주): 이진 탐색 (Binary Search)**
     * 문제 1: [LeetCode 704 - Binary Search](https://leetcode.com/problems/binary-search/description/) (기본기 다지기)
     * 문제 2: [프로그래머스 L3 - 입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) (이진 탐색의 실전 활용)
 * [ ] **3주차: 투 포인터 & 슬라이딩 윈도우**
