@@ -9,7 +9,7 @@
 * [x] **2주차 (이번 주): 이진 탐색 (Binary Search)**
     * 문제 1: [LeetCode 704 - Binary Search](https://leetcode.com/problems/binary-search/description/) (기본기 다지기)
     * 문제 2: [프로그래머스 L3 - 입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) (이진 탐색의 실전 활용)
-* [ ] **3주차: 투 포인터 & 슬라이딩 윈도우**
+* [x] **3주차: 투 포인터 & 슬라이딩 윈도우**
     * 문제 1: [LeetCode 167 - Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) (양방향 포인터)
     * 문제 2: [LeetCode 643 - Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/) (슬라이딩 윈도우)
 
@@ -19,7 +19,7 @@
 > **목표:** 스택, 큐, 해시 등 실무에서도 자주 쓰는 핵심 자료구조의 특성을 파악하고 활용하기
 
 * [ ] **4주차: 해시 맵 (HashMap / HashSet)**
-    * 문제 1: [프로그래머스 L2 - 의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) (경우의 수 + 해시)
+    * 문제 1: [프로그래머스 L2 - 의상](c) (경우의 수 + 해시)
     * 문제 2: [LeetCode 383 - Ransom Note](https://leetcode.com/problems/ransom-note/description/) (문자열 개수 카운팅)
 * [ ] **5주차: 스택 & 큐 (Stack / Queue)**
     * 문제 1: [프로그래머스 L2 - 올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) (스택의 정석)
