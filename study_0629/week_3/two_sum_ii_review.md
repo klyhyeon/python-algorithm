@@ -1,4 +1,4 @@
-###  Binary Search - LeetCode
+###  Two Sum II - LeetCode
 
 #### 최초 소요시간
 - 15분
