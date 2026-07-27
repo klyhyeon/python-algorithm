@@ -19,20 +19,20 @@ from collections import defaultdict
 
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        ransom_map = defaultdict()
+        ransom_map = dict()
         for alphabet in ransomNote:
             if alphabet in ransom_map:
                 ransom_map[alphabet] += 1
             else:
                 ransom_map[alphabet] = 1
-        magazine_map = defaultdict()
+        magazine_map = dict()
         for alphabet in magazine:
             if alphabet in magazine_map:
                 magazine_map[alphabet] += 1
             else:
                 magazine_map[alphabet] = 1
-        for key in ransom_map.keys():
-            if magazine_map.get(key) is None or magazine_map.get(key) < ransom_map.get(key):
+        for key in ransom_map:
+            if magazine_map.get(key, 0) < ransom_map.get(key):
                 return False
         return True
         
