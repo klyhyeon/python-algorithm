@@ -15,7 +15,6 @@
 # ransomNote and magazine consist of lowercase English letters.
 # 성공: 15분
 
-from collections import defaultdict
 
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
