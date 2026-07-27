@@ -13,11 +13,29 @@
 # Constraints:
 # 1 <= ransomNote.length, magazine.length <= 10^5
 # ransomNote and magazine consist of lowercase English letters.
+# 성공: 15분
+
+from collections import defaultdict
 
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        ransom_map = defaultdict()
+        for alphabet in ransomNote:
+            if alphabet in ransom_map:
+                ransom_map[alphabet] += 1
+            else:
+                ransom_map[alphabet] = 1
+        magazine_map = defaultdict()
+        for alphabet in magazine:
+            if alphabet in magazine_map:
+                magazine_map[alphabet] += 1
+            else:
+                magazine_map[alphabet] = 1
+        for key in ransom_map.keys():
+            if magazine_map.get(key) is None or magazine_map.get(key) < ransom_map.get(key):
+                return False
         return True
         
 
 sol = Solution()
-print(sol.canConstruct("a", "b"))
+print(sol.canConstruct("aa", "aab"))
