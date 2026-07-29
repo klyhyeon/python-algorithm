@@ -18,8 +18,8 @@
 ## 🏗️ 2단계: 핵심 자료구조 & 완전 탐색
 > **목표:** 스택, 큐, 해시 등 실무에서도 자주 쓰는 핵심 자료구조의 특성을 파악하고 활용하기
 
-* [ ] **4주차: 해시 맵 (HashMap / HashSet)**
-    * 문제 1: [프로그래머스 L2 - 의상](c) (경우의 수 + 해시)
+* [x] **4주차: 해시 맵 (HashMap / HashSet)**
+    * 문제 1: [프로그래머스 L2 - 의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) (경우의 수 + 해시)
     * 문제 2: [LeetCode 383 - Ransom Note](https://leetcode.com/problems/ransom-note/description/) (문자열 개수 카운팅)
 * [ ] **5주차: 스택 & 큐 (Stack / Queue)**
     * 문제 1: [프로그래머스 L2 - 올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) (스택의 정석)
