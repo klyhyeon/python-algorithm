@@ -21,7 +21,7 @@
 * [x] **4주차: 해시 맵 (HashMap / HashSet)**
     * 문제 1: [프로그래머스 L2 - 의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) (경우의 수 + 해시)
     * 문제 2: [LeetCode 383 - Ransom Note](https://leetcode.com/problems/ransom-note/description/) (문자열 개수 카운팅)
-* [ ] **5주차: 스택 & 큐 (Stack / Queue)**
+* [x] **5주차: 스택 & 큐 (Stack / Queue)**
     * 문제 1: [프로그래머스 L2 - 올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) (스택의 정석)
     * 문제 2: [프로그래머스 L2 - 프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587) (큐를 이용한 시뮬레이션)
 * [ ] **6주차: DFS / BFS 기초 (★코테 단골)**
