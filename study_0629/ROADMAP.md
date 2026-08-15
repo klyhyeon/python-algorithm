@@ -24,7 +24,7 @@
 * [x] **5주차: 스택 & 큐 (Stack / Queue)**
     * 문제 1: [프로그래머스 L2 - 올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) (스택의 정석)
     * 문제 2: [프로그래머스 L2 - 프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587) (큐를 이용한 시뮬레이션)
-* [ ] **6주차: DFS / BFS 기초 (★코테 단골)**
+* [x] **6주차: DFS / BFS 기초 (★코테 단골)**
     * 문제 1: [프로그래머스 L2 - 타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) (DFS 완전 탐색 입문)
     * 문제 2: [LeetCode 1971 - Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) (기본 그래프 탐색)
 
