@@ -44,7 +44,30 @@
 #
 # 입출력 예 #2
 # 문제의 예시와 같으며, 상대 팀 진영에 도달할 방법이 없습니다. 따라서 -1을 return 합니다.
+# 실패: 소요시간 40분, 왜 BFS는 이해. 최단거리 도달. 가능한 선택지들을 순회하며 답이 나오면 즉시 탈출. 이미 방문한 곳은 최단거리일수 없으므로 생략
+
+# 풀이
+from collections import deque
 
 def solution(maps):
     answer = -1
+    rows, cols = len(maps), len(maps[0])
+    visited = [[0] * cols for _ in range(rows)]
+    visited[0][0] = 1
+    move_x = [-1, 1, 0, 0]
+    move_y = [0, 0, -1, 1]
+    queue = deque([(0, 0)])
+    while queue:
+        node = queue.popleft()
+        x = node[0]
+        y = node[1]
+        for i in range(4):
+            nx, ny = x + move_x[i], y + move_y[i]
+            if 0 <= nx < rows and 0 <= ny < cols and maps[nx][ny] == 1:
+                if visited[nx][ny] != 0:
+                    continue
+                visited[nx][ny] = visited[x][y] + 1
+                queue.append((nx, ny))
+                if nx == rows - 1 and ny == cols - 1:
+                    return visited[nx][ny]
     return answer
