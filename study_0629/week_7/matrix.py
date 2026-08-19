@@ -20,8 +20,9 @@
 # 1 <= m * n <= 104
 # mat[i][j] is either 0 or 1.
 # There is at least one 0 in mat.
-# 실패
+# 실패: 소요시간 30분
 
+# 정답코드
 from collections import deque
 
 class Solution:
@@ -53,3 +54,19 @@ class Solution:
                     queue.append((nr, nc))
 
         return mat
+
+# from typing import List
+
+# class Solution:
+#     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
+#         x_move = [1, -1, 0, 0]
+#         y_move = [0, 0, 1, -1]
+#         row_len = len(mat)
+#         col_len = len(mat[0])
+#         for i in range(row_len):
+#             for j in range(col_len):
+#                 print(mat[i][j])
+#         return []
+
+Solution().updateMatrix([[0,0,0],[0,1,0],[0,0,0]])
+
