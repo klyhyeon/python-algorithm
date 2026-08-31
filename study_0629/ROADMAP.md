@@ -33,10 +33,10 @@
 ## 🕸️ 3단계: 그래프 알고리즘 심화
 > **목표:** 면접과 코테에서 변별력을 가르는 최단 거리 및 심화 탐색 정복
 
-* [ ] **7주차: BFS 심화 (최단 거리)**
+* [x] **7주차: BFS 심화 (최단 거리)**
     * 문제 1: [프로그래머스 L2 - 게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) (2차원 배열 BFS 정석)
     * 문제 2: [LeetCode 542 - 01 Matrix](https://leetcode.com/problems/01-matrix/description/) (다중 시작점 BFS)
-* [ ] **8주차: DFS 심화 (그래프 컴포넌트)**
+* [x] **8주차: DFS 심화 (그래프 컴포넌트)**
     * 문제 1: [프로그래머스 L3 - 네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) (연결된 그래프 개수 찾기)
     * 문제 2: [LeetCode 200 - Number of Islands](https://leetcode.com/problems/number-of-islands/description/) (글로벌 빈출 서브 네트워킹 문제)
 
