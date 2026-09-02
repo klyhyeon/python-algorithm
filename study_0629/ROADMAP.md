@@ -45,7 +45,7 @@
 ## 📈 4단계: 그리디 & 다이나믹 프로그래밍 (DP)
 > **목표:** 규칙성을 찾고 최적의 선택을 유도하는 직관 기르기
 
-* [ ] **9주차: 탐욕법 (Greedy)**
+* [x] **9주차: 탐욕법 (Greedy)**
     * 문제 1: [프로그래머스 L2 - 구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) (정렬 + 그리디)
     * 문제 2: [LeetCode 121 - Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) (매 순간 최적의 값 갱신)
 * [ ] **10주차: 다이나믹 프로그래밍 기초 (DP)**

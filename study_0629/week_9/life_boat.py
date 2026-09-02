@@ -20,26 +20,19 @@
 
 
 def solution(people, limit):
-    least_use = 0
     people.sort()
     total_people = len(people)
-    limit_people = 2
     limit_kg = limit
-    removed = [False] * len(people)
-    for i in range(total_people):
-        current_people_on_boat = 0
-        if removed[i]:
-            continue
-        for x in range(total_people - 1, 0, -1):
-            if current_people_on_boat == limit_people:
-                break
-            if removed[x]:
-                continue
-            if people[i] + people[x] <= limit_kg:
-                current_people_on_boat = 2
-                removed[x] = True
-        removed[i] = True
-        least_use += 1
-    return least_use
+    right = total_people - 1
+    left = 0
+    pairs = 0
+    while left < right:
+        if people[left] + people[right] <= limit_kg:
+            pairs += 1
+            left += 1
+            right -= 1
+        else:
+            right -= 1
+    return total_people - pairs
 
 print(solution([70, 50, 80, 50], 100))
