@@ -17,6 +17,8 @@
 # [70, 50, 80, 50]	100	3
 # [70, 80, 50]	100	3
 
+# 효율성 테스트 통과: left, right pointer 흰트 얻음
+
 
 
 def solution(people, limit):
